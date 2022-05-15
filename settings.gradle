@@ -1,0 +1,5 @@
+rootProject.name = 'SimpleClansReloaded'
+include 'core'
+include 'spigot'
+include 'sponge'
+
