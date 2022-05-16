@@ -1,10 +1,10 @@
 package me.roinujnosde.simpleclans.spigot
 
 import co.aikar.commands.*
-import me.roinujnosde.simpleclans.SimpleClans
+import me.roinujnosde.simpleclans.core.SimpleClansPlugin
 import org.bukkit.plugin.java.JavaPlugin
 
-class SimpleClansPlugin : SimpleClans, JavaPlugin() {
+class SimpleClansSpigot : SimpleClansPlugin, JavaPlugin() {
 
     override fun getPlatform(): String {
         return "Spigot"
@@ -15,7 +15,7 @@ class SimpleClansPlugin : SimpleClans, JavaPlugin() {
     }
 
     override fun onEnable() {
-        super<SimpleClans>.init()
+        super<SimpleClansPlugin>.init()
     }
 
 }

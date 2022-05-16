@@ -1,9 +1,9 @@
-package me.roinujnosde.simpleclans
+package me.roinujnosde.simpleclans.core
 
 import co.aikar.commands.*
 import java.util.logging.Logger
 
-interface SimpleClans {
+interface SimpleClansPlugin {
 
     fun init() {
         getLogger().info("Platform: %s".format(getPlatform()))
