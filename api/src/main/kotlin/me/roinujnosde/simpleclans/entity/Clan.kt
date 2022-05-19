@@ -1,4 +1,4 @@
-package me.roinujnosde.simpleclans.api
+package me.roinujnosde.simpleclans.entity
 
 import java.math.BigDecimal
 

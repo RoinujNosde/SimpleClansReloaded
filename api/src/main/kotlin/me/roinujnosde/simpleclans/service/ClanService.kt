@@ -1,8 +1,10 @@
-package me.roinujnosde.simpleclans.api
+package me.roinujnosde.simpleclans.service
 
+import me.roinujnosde.simpleclans.entity.Clan
+import me.roinujnosde.simpleclans.entity.ClanPlayer
 import java.util.*
 
-interface SimpleClansAPI {
+interface ClanService {
 
     fun getClans(): Collection<Clan>
 

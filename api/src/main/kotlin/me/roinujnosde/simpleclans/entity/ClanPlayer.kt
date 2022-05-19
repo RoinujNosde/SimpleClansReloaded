@@ -1,6 +1,6 @@
-package me.roinujnosde.simpleclans.api
+package me.roinujnosde.simpleclans.entity
 
-import java.util.UUID
+import java.util.*
 
 interface ClanPlayer {
 
