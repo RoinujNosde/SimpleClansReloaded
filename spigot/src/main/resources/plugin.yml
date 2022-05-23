@@ -1,4 +1,0 @@
-name: SimpleClansReloaded
-main: me.roinujnosde.simpleclans.spigot.SimpleClansSpigot
-version: 1.0.0 # TODO: Fetch from build.gradle
-api-version: 1.13

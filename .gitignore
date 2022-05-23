@@ -1,5 +1,6 @@
 /build/
 /spigot/build/
 /core/build/
+/api/build/
 /.idea/
 /.gradle/

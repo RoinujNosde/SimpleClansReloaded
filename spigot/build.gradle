@@ -15,6 +15,9 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib"
     implementation project(":core")
     compileOnly "org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT"
+    compileOnly 'org.spigotmc:plugin-annotations:1.2.3-SNAPSHOT'
+    //noinspection VulnerableLibrariesLocal
+    annotationProcessor 'org.spigotmc:plugin-annotations:1.2.3-SNAPSHOT'
     implementation "co.aikar:acf-paper:0.5.1-SNAPSHOT"
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
@@ -23,6 +26,7 @@ dependencies {
 
 compileKotlin {
     kotlinOptions.javaParameters = true
+
 }
 
 shadowJar {
