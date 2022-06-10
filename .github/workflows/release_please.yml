@@ -1,0 +1,18 @@
+on:
+  push:
+    branches:
+      - master
+
+name: Release Please
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: maven
+          package-name: SimpleClansReloaded
+          bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
+          fork: true
+          token: ${{ secrets.PAT_TOKEN }}
